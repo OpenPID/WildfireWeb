@@ -11,11 +11,15 @@ function views(config) {
     });
 
     router.get('/signup', function (req, res) {
-        res.render('signup.mustache');
+        res.render('signup.mustache', {
+            title: 'Signup'
+        });
     });
 
     router.get('/unsubscribe', function (req, res) {
-        res.render('unsubscribe.mustache');
+        res.render('unsubscribe.mustache', {
+            title: 'Unsubscribe'
+        });
     });
 
     return router;
