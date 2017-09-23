@@ -20,7 +20,6 @@
     "express": "^4.15.4",
     "http": "0.0.0",
     "morgan": "^1.8.2",
-    "mustache": "^2.3.0",
     "mustache-express": "^1.2.5"
   }
 }
