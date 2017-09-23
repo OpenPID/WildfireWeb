@@ -1,0 +1,26 @@
+{
+  "name": "wildfireweb",
+  "version": "1.0.0",
+  "description": "Wildfire Web",
+  "main": "app/web/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenPID/WildfireWeb.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenPID/WildfireWeb/issues"
+  },
+  "homepage": "https://github.com/OpenPID/WildfireWeb#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "http": "0.0.0",
+    "morgan": "^1.8.2",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5"
+  }
+}
