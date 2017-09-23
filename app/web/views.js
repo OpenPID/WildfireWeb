@@ -17,7 +17,9 @@ function views(config) {
     });
 
     router.get('/unsubscribe', function (req, res) {
-        res.render('unsubscribe.mustache');
+        res.render('unsubscribe.mustache', {
+            title: 'Unsubscribe'
+        });
     });
 
     return router;
