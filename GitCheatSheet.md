@@ -1,9 +1,18 @@
 Git Cheat Sheat
 ==
 
+Notes:
+
+* `$` signifies the command line prompt
+* `<text>` is a place-holder where `text` describes what should go there
+
 Create a branch and switch to it in one step:
 
     $ git checkout -b <branch name>
+
+Add new files:
+
+    $ git add <file name>
 
 Commit changes to the current branch:
 
@@ -22,4 +31,3 @@ Merge master into your changes:
 
     $ git checkout <branch name>
     $ git merge master
-    
