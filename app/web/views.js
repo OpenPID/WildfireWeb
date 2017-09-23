@@ -5,20 +5,17 @@ const request = require('request-promise');
 
 function views(config) {
     var config = config || {},
-        router = express.Router();
-    var api_url = config.api_url || 'http://localhost:8081';
+        router = express.Router(),
+        api_url = config.api_url || 'http://localhost:8081';
+
     router.get('/', function (req, res) {
         request(api_url + "/news", { json: true })
             .then(function (data) {
-                console.log(data);
-                res.render('index.mustache', { news : data});
-
+                res.render('index.mustache', {news: data});
             })
             .catch(function (err) {
-                console.log(err);
-                res.send(err);
+                res.render('index.mustache', {news: []});
             });
-        
     });
 
     router.get('/signup', function (req, res) {
