@@ -16,7 +16,7 @@ function init(config) {
     // Basic setup
     app.use(logger('dev'));
     app.set('port', port);
-    app.engine('html', mustache());
+    app.engine('mustache', mustache());
     app.set('view engine', 'mustache');
 
     // Views
