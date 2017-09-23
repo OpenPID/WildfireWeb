@@ -1,19 +1,32 @@
 {{> head}}
 
-<p>
-  Signup for notifications
-</p>
 
-<form action="" method="post">
-  <label name="signup">Sign up</label>
-  <input type="text" name="signup" />
 
-  <select name="area">
+<center>
+<div class="container">
+  <h2>Sign Up</h2>
+  <p>Please provide your information.</p>
+  <form class="form-block" action="/action_page.php">
+    <div class="form-group">
+      <label class="sr-only" for="email">Email:</label>
+      <input type="email" style="width: 200px" class="form-control" id="email" placeholder="Enter email"  name="email">
+    </div>
+	<div class="form-group">
+      <label class="sr-only" for="phone">Phone Number:</label>
+      <input type="tel" style="width: 200px" class="form-control" id="phone" placeholder="Enter Phone Number"  name="phone">
+    </div>
+    <div class="form-group" style="width: 200px" >
+  <label for="sel1">City:</label>
+  <select  class="form-control" id="city">
     <option value="pocatello">Pocatello</option>
-    <option value="idaho-falls">Idaho Falls</option>
+    <option value="idahoafalls">Idaho Falls</option>
+    <option value="twinfalls">Twin Falls</option>
   </select>
-
-  <input type="submit" name="submit" value="Sign up" />
-</form>
+  
+</div>
+    <button type="submit" class="btn btn-default">Sign Up</button>
+  </form>
+</div>
+</center>
 
 {{> footer}}
