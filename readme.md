@@ -11,3 +11,7 @@ npm install
 ```
 bin/web
 ```
+
+## Developing
+
+Templates use [Mustache](https://mustache.github.io/)
