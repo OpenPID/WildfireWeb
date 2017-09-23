@@ -20,6 +20,8 @@
     "express": "^4.15.4",
     "http": "0.0.0",
     "morgan": "^1.8.2",
-    "mustache-express": "^1.2.5"
+    "mustache-express": "^1.2.5",
+    "request": "^2.82.0",
+    "request-promise": "^4.2.2"
   }
 }

@@ -2,3 +2,4 @@ node_modules/
 /.vs/slnx.sqlite
 /package-lock.json
 /.vs/config/applicationhost.config
+/.vs
